@@ -16,7 +16,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -72,7 +71,6 @@ the other REST methods (POST, PUT, PATCH, DELETE).
 - Frontend Mentor User- [@Robertron624](https://www.frontendmentor.io/profile/Robertron624)
 - Twitter - [@robertdowny](https://www.twitter.com/robertdowny)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
