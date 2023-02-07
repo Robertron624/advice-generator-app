@@ -3,40 +3,55 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --neon-green: hsl(150, 100%, 66%);
+  --glowing-neon-green: rgb(83, 255, 171);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1, p {
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  position: relative;
+  text-align: center;
+  max-width: 300px;
+  padding: 3.3rem 3rem;
+  border-radius: 20px;
+  background-color: var(--dark-grayish-blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.advice__number {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.card {
-  padding: 2em;
+.advice__text {
+  margin-bottom: 2rem;
 }
 
-.read-the-docs {
-  color: #888;
+.bottom__images {
+  display: flex;
+  flex-direction: column;
+}
+
+.new__advice--btn{
+  background-color: var(--neon-green);
+  padding: 0.8rem;
+  border-radius: 29px;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  right: 44%;
+  bottom: -8%;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.new__advice--btn:hover {
+  background-color: var(--glowing-neon-green);
+  box-shadow: 0 0 16px 6px var(--glowing-neon-green);
 }
