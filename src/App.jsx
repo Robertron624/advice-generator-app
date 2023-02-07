@@ -23,12 +23,15 @@ function App() {
         <div className="App">
             <h1 className="advice__number">ADVICE #{currentAdvice.id}</h1>
             <div>
-                <p className="advice__text">{`“${currentAdvice.advice}”`}</p>
+                <p className="advice__text">{`“${
+                    currentAdvice.advice ? currentAdvice.advice : "loading..."
+                }”`}</p>
                 <div className="bottom__images">
                     <img src={divider} alt="divider" />
                     <span
                         onClick={getAdvice}
                         className="new__advice--btn"
+                        title="Get new advice"
                     >
                         <img src={diceImg} alt="dice icon" />
                     </span>

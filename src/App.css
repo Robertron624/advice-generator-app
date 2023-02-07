@@ -17,19 +17,23 @@ h1, p {
 .App {
   position: relative;
   text-align: center;
-  max-width: 300px;
+  width: 63vw;
+  max-width: 18.75rem;
   padding: 3.3rem 3rem;
   border-radius: 20px;
   background-color: var(--dark-grayish-blue);
 }
 
 .advice__number {
-  font-size: 1rem;
   margin-bottom: 1rem;
+  font-size: 0.6rem;
+  color: var(--neon-green);
+  letter-spacing: 4px;
 }
 
 .advice__text {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .bottom__images {
@@ -45,7 +49,8 @@ h1, p {
   margin: 0 auto;
   display: flex;
   position: absolute;
-  right: 44%;
+  left: 50%;
+  transform: translate(-50%, 0);
   bottom: -8%;
   transition: 0.8s;
   cursor: pointer;
